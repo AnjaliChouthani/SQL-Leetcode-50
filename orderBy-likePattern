@@ -1,0 +1,11 @@
+1. Write a query to fetch all the records from the EmployeeInfo table ordered by EmpLname in descending order and Department in the ascending order.
+
+
+select * from EmployeeInfo order by EmpLname desc,department asc
+
+
+
+2. Write a query to fetch details of employees whose EmpLname ends with an alphabet ‘A’ and contains five alphabets.
+
+
+select * from employee where EmpLname like '____A'
