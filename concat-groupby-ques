@@ -1,0 +1,17 @@
+SQL Questions: 1. Write  a query to retrieve the EmpFname and EmpLname in a single column as “FullName”. The first name and the last name must be separated with space.
+
+
+
+
+SELECT CONCAT(EmpFname,' ',EmpLname) as FullName from employee
+
+
+
+
+
+
+
+2. Write a query find number of employees whose DOB is between 02/05/1970 to 31/12/1975 and are grouped according to gender
+
+
+select gender, count(*) as no_of_emp from employee where DOB between '1970-05-02' and '1975-12-31' group by gender
