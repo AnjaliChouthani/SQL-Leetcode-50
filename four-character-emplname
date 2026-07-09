@@ -1,0 +1,6 @@
+1. Write a query to retrieve the first four characters of EmpLname from the EmployeeInfo table.
+
+SELECT SUBSTRING(EmpLname,1,4) as empName from EmployeeInfo;
+
+
+//we can also use left(emplname,4) in place of substring
