@@ -1,0 +1,3 @@
+Write an SQL query to fetch different cities from the user table.
+
+SELECT DISTINCT city FROM user ;
