@@ -1,0 +1,3 @@
+Write an SQL query to fetch the count of employees working in project ‘P1’.
+
+SELECT COUNT(*) AS total_employee FROM employee WHERE project ='P1'
