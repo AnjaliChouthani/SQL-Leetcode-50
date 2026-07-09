@@ -1,0 +1,4 @@
+2. Write a query to fetch the number of employees working in the department ‘HR’.
+
+
+  SELECT COUNT(*) AS number_of_employees FROM employee WHERE department='HR'
