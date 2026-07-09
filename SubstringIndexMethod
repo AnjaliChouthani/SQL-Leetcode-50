@@ -1,0 +1,4 @@
+Write a query to fetch only the place name(string before brackets) from the Address column of EmployeeInfo table.
+
+
+select substring(address,'(',1) as place_name from employeeInfo;
