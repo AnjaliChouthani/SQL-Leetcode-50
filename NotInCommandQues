@@ -1,0 +1,15 @@
+1. Write a query to fetch details of all employees excluding the employees with first names, “Sanjay” and “Sonia” from the EmployeeInfo table.
+
+
+
+select * from employee where first_name not in ('Sanjay','Sonia')
+
+
+2. Write a query to fetch details of employees with the address as “DELHI(DEL)”
+
+
+select * from employee where address = 'DELHI(DEL)'
+
+3. Write a query to fetch all employees who also hold the managerial position.
+
+select * from employee where position='managerial'
