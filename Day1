@@ -1,0 +1,19 @@
+## Day 1 - SQL Practice
+
+
+Ques Big Countries (SQL Leetcode 50)
+
+
+-> We have given a table which consist of name, continent, area, population and gdp value 
+
+-> We have to find big countries name, area and population 
+
+-> A country is called big country if
+     - area at least 3 million or 
+     - population at least 25million 
+
+
+
+```sql
+select name,population,area from world where area >= 3000000 and population>=25000000
+```
